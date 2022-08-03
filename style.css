@@ -33,7 +33,7 @@ body {
     list-style: none;
     display: flex;
     padding: 0;
-    gap: 16px;
+    gap: 36px;
     font-size: 18px;
   }
 
@@ -55,7 +55,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 36px;
     width: 70%;
   }
 
@@ -94,3 +94,118 @@ body {
       width: 100px;
       height: 30px;
     }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+}
+
+  .info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 16px;
+  }
+
+  .info .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 60%;
+  }
+
+    .info .container .card {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 150px;
+    }
+
+      .info .container .card img {
+        width: 150px;
+        height: auto;
+      }
+
+.quote-bg {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  height: 480px;
+}
+
+  .quote-bg .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 60%;
+  }
+
+    .quote-bg .quote p {
+      font-size: 36px;
+      font-weight: lighter;
+      font-style: italic;
+    }
+
+    .quote-bg .quote .author p {
+      color: #1F2937;
+      font-size: 24px;
+    }
+
+.action-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+  background-color: white;
+}
+
+  .action-call .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 60px 100px 60px 100px;
+    border-radius: 8px;
+    width: 50%;
+  }
+
+    .action-call .box h1 {
+      margin: 0px;
+    }
+
+    .action-call .box p {
+      margin: 0px;
+    }
+
+    .action-call .box button {
+      background-color: #3882F6;
+      color: white;
+      border-style: solid;
+      border-color: white;
+      border-width: 2px;
+      border-radius: 8px;
+      width: 100px;
+      height: 30px;
+    }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1F2937;
+  height: 80px;
+}
+
+  .footer h6 {
+    font-size: 16px;
+    font-weight: lighter;
+  }
